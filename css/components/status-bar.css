@@ -5,6 +5,7 @@
 }
 
 .status-bar__column {
+	font-weight: 600;
 	width: 33%;
 }
 
