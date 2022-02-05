@@ -1,15 +1,66 @@
-.friends-header {
-	align-items: center;
-	margin: 20px 20px;
+.nav-menu {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: #f9f9fa;
+	padding: 20px 50px;
+	box-sizing: border-box;
+}
+
+.nav-menu__ul {
 	justify-content: space-between;
 	display: flex;
 }
 
-.friends-bar__column:last-child {
-	display: flex;
+.nav-menu__link {
+	color: #2e363e;
+	text-decoration: none;
+	position: relative;
 }
 
-.friends-bar__title {
-	font-size: 40px;
+.nav-menu__notify {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: tomato;
+	color: white;
+	font-weight: 300;
+	position: absolute;
+	top: -8px;
+	left: 13px;
+}
+
+.nav-menu__dot {
+	width: 5px;
+	height: 5px;
+	display: flex;
+	border-radius: 50%;
+	background-color: tomato;
+	color: rgba(0, 0, 0, 0);
+	position: absolute;
+	top: -2px;
+	left: 20px;
+}
+
+.friends-display-link i {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-display-link {
+	align-items: center;
+	text-align: center;
+	display: block;
+	background-color: #fafafa;
+	height: 50px;
+	line-height: 50px;
 	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.friends-screen {
+	padding: 0px var(--horizontal-space);
 }
