@@ -10,12 +10,13 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Friends Screen</title>
+		<title>Kakao Clone - Friends</title>
 	</head>
 	<body>
 		<div class="status-bar">
 			<div class="status-bar__column">
-				<span>No Service</span>
+				<i class="fas fa-signal"></i>
+				<span>SKT</span>
 				<i class="fas fa-wifi"></i>
 			</div>
 			<div class="status-bar__column">
@@ -56,7 +57,7 @@
       </div>
       <div class="friends-screen__channel">
         <div class="friends-screen__channel-header">
-          <span>Channel <i class="fas fa-chevron-up"></i></span>
+          <span>Channel</span> <i class="fas fa-chevron-up"></i>
         </div>
         <div class="user-component">
           <div class="user-component__column">
@@ -64,11 +65,14 @@
             src="https://t1.daumcdn.net/cfile/tistory/996ED33E5B751C630B" 
             class="user-component__avatar user-component__avatar__sm" />
             <div class="user-component__text">
-              <h4 class="user-component__name">Channel</h4>
+              <h4 class="user-component__name user user-component__name__not-bold">Channel</h4>
             </div>
           </div>
           <div class="user-component__column">
-            <span>2 <i class="fas fa-chevron-right fa-sm"></i></span>
+			<div>
+            	<span>2</span>
+				<i class="fas fa-chevron-right fa-sm"></i>
+			</div>
           </div>
         </div>
       </div>
@@ -76,32 +80,32 @@
 
 		
 
-		<nav class="nav-menu">
-			<ul class="nav-menu__ul">
-				<li class="nav-menu__btn">
-					<a class="nav-menu__link" href="friends.html"
-						><i class="fas fa-user fa-lg"></i
-					></a>
-				</li>
-				<li class="nav-menu__btn">
-					<a class="nav-menu__link" href="#"
-						><span class="nav-menu__notify">1</span
-						><i class="far fa-comment fa-lg"></i
-					></a>
-				</li>
-				<li class="nav-menu__btn">
-					<a class="nav-menu__link" href="#"
-						><i class="fas fa-search fa-lg"></i
-					></a>
-				</li>
-				<li class="nav-menu__btn">
-					<a class="nav-menu__link" href="#"
-						><span class="nav-menu__dot">0</span
-						><i class="fas fa-ellipsis-h fa-lg"></i
-					></a>
-				</li>
-			</ul>
-		</nav>
+	<nav class="nav-menu">
+		<ul class="nav-menu__ul">
+			<li class="nav-menu__btn">
+				<a class="nav-menu__link" href="friends.html"
+					><i class="fas fa-user fa-lg"></i
+				></a>
+			</li>
+			<li class="nav-menu__btn">
+				<a class="nav-menu__link" href="chat.html"
+					><span class="nav-menu__notify badge">1</span
+					><i class="far fa-comment fa-lg"></i
+				></a>
+			</li>
+			<li class="nav-menu__btn">
+				<a class="nav-menu__link" href="find.html"
+					><i class="fas fa-search fa-lg"></i
+				></a>
+			</li>
+			<li class="nav-menu__btn">
+				<a class="nav-menu__link" href="more.html"
+					><span class="nav-menu__dot">0</span
+					><i class="fas fa-ellipsis-h fa-lg"></i
+				></a>
+			</li>
+		</ul>
+	</nav>
 		<script
 			src="https://kit.fontawesome.com/006d533c5f.js"
 			crossorigin="anonymous"
