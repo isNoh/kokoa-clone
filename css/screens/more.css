@@ -1,0 +1,45 @@
+.more-suggestions {
+	margin-top: 50px;
+	border-top: var(--my-border);
+	padding-top: 25px;
+}
+
+.more-suggestions__title {
+	font-weight: 500;
+	margin-bottom: 25px;
+}
+
+.more-suggestions__icons {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.more-suggestions__icon {
+	width: 25%;
+}
+
+.more-suggestions__icon-img img {
+	width: 60px;
+	height: 60px;
+	border-radius: 8px;
+}
+
+.more-suggestions__icon-text {
+	display: block;
+	margin-top: 7px;
+	color: var(--my-grey-color);
+	font-weight: 600;
+}
+
+.more-screen__number {
+	font-weight: 600;
+}
+
+.more-screen__icon {
+	color: black;
+}
+
+.more-screen {
+	border: 0px;
+}

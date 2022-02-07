@@ -29,3 +29,17 @@
 	top: -5px;
 	right: -5px;
 }
+
+@keyframes rotateIcon {
+	from {
+		transform: none;
+	}
+	to {
+		transform: rotateZ(360deg);
+	}
+}
+
+.screen-header__icons .fa-cog:hover,
+.screen-header__icons .fa-compact-disc:hover {
+	animation: rotateIcon 1.5s ease-in-out infinite;
+}

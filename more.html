@@ -10,7 +10,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Kakao Clone - Friends</title>
+		<title>Kakao Clone - More</title>
 	</head>
 	<body>
 		<div class="status-bar">
@@ -30,7 +30,7 @@
 			</div>
 		</div>
 		<header class="screen-header">
-			<h1 class="screen-header__title">Friends</h1>
+			<h1 class="screen-header__title">More</h1>
 			<div class="screen-header__icons">
 				<span><i class="fas fa-search fa-lg"></i></span>
 				<span
@@ -42,14 +42,8 @@
 				></span>
 			</div>
 		</header>
-
-		<a class="friends-display-link">
-			<i class="fas fa-exclamation-circle"></i> Friends' Names Display
-			<i class="fas fa-chevron-right"></i>
-		</a>
-
 		<main class="friends-screen">
-			<div class="user-component">
+			<div class="user-component more-screen">
 				<div class="user-component__column">
 					<img
 						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXdd3u5NqCQXagF3DlT5PqENDPrUx_Dy4BNF0l3v44cFnSOnrIU1JJXnCYtqovHd7lVY8&usqp=CAU"
@@ -57,34 +51,69 @@
 					/>
 					<div class="user-component__text">
 						<h4 class="user-component__name">isNoh</h4>
-						<!--h6 class="user-component__name__chat">this is test text</h6> -->
+						<h6 class="user-component__name__chat more-screen__number">
+							+82 010-1111-1111 <i class="fas fa-exclamation-circle fa-sm"></i>
+						</h6>
 					</div>
 				</div>
-				<div class="user-component__column"></div>
+				<div class="user-component__column">
+					<i class="far fa-comment-alt fa-2x"></i>
+				</div>
 			</div>
-			<div class="friends-screen__channel">
-				<div class="friends-screen__channel-header">
-					<span>Channel</span> <i class="fas fa-chevron-up"></i>
+			<div class="icon-row">
+				<div class="icon-row__icon">
+					<i class="far fa-calendar-check fa-2x"></i><span>Calender</span>
 				</div>
-				<div class="user-component">
-					<div class="user-component__column">
-						<img
-							src="https://t1.daumcdn.net/cfile/tistory/996ED33E5B751C630B"
-							class="user-component__avatar user-component__avatar__sm"
-						/>
-						<div class="user-component__text">
-							<h4
-								class="user-component__name user user-component__name__not-bold"
-							>
-								Channel
-							</h4>
+				<div class="icon-row__icon">
+					<i class="far fa-clipboard fa-2x"></i><span>Talk Drive</span>
+				</div>
+				<div class="icon-row__icon">
+					<i class="far fa-smile-wink fa-2x"></i><span>Emoticons</span>
+				</div>
+				<div class="icon-row__icon">
+					<i class="fas fa-fill fa-2x"></i><span>Themes</span>
+				</div>
+			</div>
+			<div class="icon-row">
+				<div class="icon-row__icon-seconds">
+					<i class="far fa-user-circle fa-2x"></i><span>Account</span>
+				</div>
+				<div class="icon-row__icon-seconds">
+					<i class="far fa-comments fa-2x"></i><span>Openchat</span>
+				</div>
+				<div class="icon-row__icon-seconds"></div>
+				<div class="icon-row__icon-seconds"></div>
+			</div>
+			<div class="more-suggestions">
+				<h4 class="more-suggestions__title">Suggestions</h4>
+				<div class="more-suggestions__icons">
+					<div class="more-suggestions__icon">
+						<div class="more-suggestions__icon-img">
+							<img
+								src="https://play-lh.googleusercontent.com/X-ilCPRjv76Fh9hSbL3Yh9hI2kihMhNno53UoGGb_-AOl7pCfOwAqeVzYaeis_GaKaWT"
+							/>
 						</div>
+						<span class="more-suggestions__icon-text">Kakao Story</span>
 					</div>
-					<div class="user-component__column">
-						<div>
-							<span>2</span>
-							<i class="fas fa-chevron-right fa-sm"></i>
+					<div class="more-suggestions__icon">
+						<div class="more-suggestions__icon-img">
+							<img
+								src="https://w.namu.la/s/853de61a86bba904835a92fd3ebd9105da5c693ab0f1de18d4904a958a0fa0e1477416606cee4418c36782d7d680c34c08fda9622d712688037bc064839ed3c790951195c50d5ad5ea46fd8c906c7de4bf5a531a3cde41ef761d3f4df2e9aaec"
+							/>
 						</div>
+						<span class="more-suggestions__icon-text">Kakao Pay</span>
+					</div>
+					<div class="more-suggestions__icon">
+						<div class="more-suggestions__icon-img">
+							<img
+								src="https://play-lh.googleusercontent.com/HTBCHqXZ01RhNVzIDwsA2ARURfzXeHxoWfsmgH92ieCgIG1CuPpJRWqCfJ9KgkwWStko"
+							/>
+						</div>
+						<span class="more-suggestions__icon-text">Kakao Bank</span>
+					</div>
+					<div class="more-suggestions__icon">
+						<div class="more-suggestions__icon-img"></div>
+						<span class="more-suggestions__icon-text"></span>
 					</div>
 				</div>
 			</div>
@@ -94,7 +123,7 @@
 			<ul class="nav-menu__ul">
 				<li class="nav-menu__btn">
 					<a class="nav-menu__link" href="friends.html"
-						><i class="fas fa-user fa-lg"></i
+						><i class="far fa-user fa-lg"></i
 					></a>
 				</li>
 				<li class="nav-menu__btn">
@@ -119,7 +148,6 @@
 		<div id="no-mobile">
 			<span>Your Screen is too big!</span>
 		</div>
-
 		<script
 			src="https://kit.fontawesome.com/006d533c5f.js"
 			crossorigin="anonymous"
